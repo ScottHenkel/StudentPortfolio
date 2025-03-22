@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="StudentPortfolio.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><asp:ContentPlaceHolder ID="PageTitle"
+runat="server"></asp:ContentPlaceHolder> | My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+</head>
+<body>
+
+     <form id="form1" runat="server">
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Projects.aspx">Projects</a></li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                </ul>
+        </nav>
+     </header>
+
+     <div class="container">
+        <asp:ContentPlaceHolder ID="MainContent" 
+runat="server">
+            <p>
+                &nbsp;</p>
+         </asp:ContentPlaceHolder>
+     </div>
+        <footer>
+            <p>&copy; <%: DateTime.Now.Year %> My Portfolio. All rights 
+reserved.</p>
+        </footer>
+    </form>
+
+</body>
+</html>
