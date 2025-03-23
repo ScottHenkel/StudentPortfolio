@@ -9,9 +9,15 @@
     <li>
       <strong>Personal Website</strong> – This website. 
       <a href="https://github.com/ScottHenkel/StudentPortfolio" target="_blank">View on GitHub</a>
+         <p>
+            <strong>The technologies used: </strong> HTML, C#, and ASP.NET
+        </p>
     </li>
     <li>
       <strong>Python Data Analysis</strong> – A Jupyter Notebook that takes datapoints from a community and charts the information. 
+        <p>
+            <strong>The technologies used: </strong> Python and Jyputer Notebook
+        </p>
       <a href="https://github.com/ScottHenkel/BCIS5110" target="_blank">View on GitHub</a>
     </li>
   </ul>
