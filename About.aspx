@@ -9,15 +9,35 @@
   <p>Looking ahead, I’m interested in expanding my expertise into the security field and/or transitioning into a leadership role as I continue to grow within Citigroup. Whether it’s through technical innovation or strategic management, my goal is to make a lasting impact in the tech space.</p>
   
   <h3>Skills:</h3>
+
+<div style="float: right; text-align: center;">
+
+  <img src="Images/citi.png" 
+       alt="Workplace Logo" 
+       style="width: 200px; margin: 0 10px 10px 0;" />
+
+
+  <img src="Images/UNT.png" 
+       alt="School Logo" 
+       style="width: 200px; margin: 0 0 10px 10px;" />
+
+  
+  <br />
+  <img src="Images/mainframe.jpg" 
+       alt="A Mainframe Computer" 
+       style="width: 200px; margin: 10px 0 10px 0;" />
+</div>
+
+
   <ul>
     <li>
-      <strong>Programming Languages:</strong> Python, C#, Java, C++, COBOL
+      <strong>Programming Languages:</strong> Python, C#, Java, C++, COBOL, VB
     </li>
     <li>
       <strong>Web Development:</strong> HTML, CSS, JavaScript, ASP.NET
     </li>
     <li>
-      <strong>Mainframe Technologies:</strong> z/OS, JCL, TSO/ISPF, IBM MQ, CICS
+      <strong>Mainframe Technologies:</strong> z/OS, JCL, TSO/ISPF, IBM MQ, CICS, REXX, VSAM, Assembler
     </li>
     <li>
       <strong>Database Management:</strong> SQL, MongoDB, DB2 (z/OS)

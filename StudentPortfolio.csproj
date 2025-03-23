@@ -70,7 +70,10 @@
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\citi.png" />
+    <Content Include="Images\mainframe.jpg" />
     <Content Include="Images\profile.jpg" />
+    <Content Include="Images\UNT.png" />
     <Content Include="Projects.aspx" />
     <Content Include="Styles\styles.css" />
     <Content Include="Web.config" />
