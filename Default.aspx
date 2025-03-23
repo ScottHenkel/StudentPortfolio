@@ -11,7 +11,7 @@
     <h1>Senior Engineer & Aspiring Tech Leader</h1>
     
 
-    <img src="Images/profile.jpg" alt="Profile Picture" class="profile-img"
+    <img src="Images/profile.jpeg" alt="Profile Picture" class="profile-img"
          style="width: 200px; border-radius: 50%; margin: 20px 0;" />
 
 

@@ -72,7 +72,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Images\citi.png" />
     <Content Include="Images\mainframe.jpg" />
-    <Content Include="Images\profile.jpg" />
+    <Content Include="Images\profile.jpeg" />
     <Content Include="Images\UNT.png" />
     <Content Include="Projects.aspx" />
     <Content Include="Styles\styles.css" />

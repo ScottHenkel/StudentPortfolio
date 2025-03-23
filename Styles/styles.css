@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
+
 /* Header */
 header {
     background: green;
@@ -10,6 +11,7 @@ header {
     text-align: center;
     padding: 20px;
 }
+
 /* Navigation */
 nav ul {
     list-style: none;
@@ -24,7 +26,13 @@ nav ul {
         nav ul li a {
             text-decoration: none;
             color: white;
+            transition: color 0.3s ease;
         }
+
+            nav ul li a:hover {
+                color: grey;
+            }
+
 /* Contact Form */
 .form-control {
     width: 100%;
@@ -32,8 +40,8 @@ nav ul {
     margin: 5px 0;
 }
 
-/* Profile Picture*/
-.profile-img{
+/* Profile Picture */
+.profile-img {
     height: 250px;
-    width: 250px
+    width: 250px;
 }
