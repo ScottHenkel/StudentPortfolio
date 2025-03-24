@@ -24,7 +24,7 @@
 
      <p>
         I am fueled by a relentless curiosity and a commitment to turning complex problems into impactful solutions—always 
-        striving to learn, evolve, and make a difference in the tech world.
+        striving to learn, evolve, and make a difference in the tech world. I am quiet the comedian... be on the look out for a golden egg!
      </p>
     
     

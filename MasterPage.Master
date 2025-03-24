@@ -8,6 +8,20 @@
     <title><asp:ContentPlaceHolder ID="PageTitle"
 runat="server"></asp:ContentPlaceHolder> | My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+
+        <script>
+      window.onload = function () {
+          // Set probability threshold (e.g., 10% chance)
+          var showEgg = Math.random() < 0.1; 
+          if (!showEgg) {
+              var eggElement = document.getElementById("randomEasterEgg");
+              if (eggElement) {
+                  eggElement.style.display = "none";
+              }
+          }
+      };
+        </script>
+
 </head>
 <body>
 
@@ -32,8 +46,14 @@ runat="server">
          </asp:ContentPlaceHolder>
      </div>
         <footer>
-            <p>&copy; <%: DateTime.Now.Year %> My Portfolio. All rights 
-reserved.</p>
+            <p>
+                &copy; <%: DateTime.Now.Year %> My Portfolio. All rights reserved.
+                <span id="randomEasterEgg">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You found the golden Easter Egg!">
+                        <img src="Images/easteregg.png" alt="Easter Egg" style="width: 50px; vertical-align: middle; margin-left: 10px;">
+                    </a>
+                </span>
+            </p>
         </footer>
     </form>
 

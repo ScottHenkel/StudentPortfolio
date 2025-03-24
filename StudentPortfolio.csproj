@@ -71,6 +71,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Images\citi.png" />
+    <Content Include="Images\easteregg.png" />
     <Content Include="Images\mainframe.jpg" />
     <Content Include="Images\profile.jpeg" />
     <Content Include="Images\UNT.png" />

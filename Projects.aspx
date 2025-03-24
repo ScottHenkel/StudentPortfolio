@@ -16,7 +16,7 @@
     <li>
       <strong>Python Data Analysis</strong> – A Jupyter Notebook that takes datapoints from a community and charts the information. 
         <p>
-            <strong>The technologies used: </strong> Python and Jyputer Notebook
+            <strong>The technologies used: </strong> Python, Jupyter Notebook, Spider, Matplot
         </p>
       <a href="https://github.com/ScottHenkel/BCIS5110" target="_blank">View on GitHub</a>
     </li>
