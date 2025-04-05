@@ -19,7 +19,7 @@
       Hi, I’m Scott Henkel, a Senior Engineer Specialist at Citigroup with a passion 
       for bridging the gap between complex mainframe systems and practical business solutions.
       I’m currently pursuing a Master’s in Information Systems & Technology to expand my horizons 
-      in security and leadership.
+      in security and leadership. hi
     </p>
 
      <p>
