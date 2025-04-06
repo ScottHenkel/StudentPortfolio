@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="StudentPortfolio.MasterPage" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="StudentPortfolio.MasterPage" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@ runat="server"></asp:ContentPlaceHolder> | My Portfolio</title>
 
         <script>
       window.onload = function () {
-          // Set probability threshold (e.g., 10% chance)
+          // Set probability threshold (10% chance)
           var showEgg = Math.random() < 0.1; 
           if (!showEgg) {
               var eggElement = document.getElementById("randomEasterEgg");
@@ -49,7 +49,7 @@ runat="server">
             <p>
                 &copy; <%: DateTime.Now.Year %> My Portfolio. All rights reserved.
                 <span id="randomEasterEgg">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You found the golden Easter Egg!">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You found the Golden Egg!">
                         <img src="Images/easteregg.png" alt="Easter Egg" style="width: 50px; vertical-align: middle; margin-left: 10px;">
                     </a>
                 </span>
