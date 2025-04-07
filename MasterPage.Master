@@ -3,16 +3,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><asp:ContentPlaceHolder ID="PageTitle"
-runat="server"></asp:ContentPlaceHolder> | My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
-
-        <script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    <asp:ContentPlaceHolder ID="PageTitle" runat="server"></asp:ContentPlaceHolder> | My Portfolio
+  </title>
+  <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+  <script>
       window.onload = function () {
           // Set probability threshold (10% chance)
-          var showEgg = Math.random() < 0.1; 
+          var showEgg = Math.random() < 0.1;
           if (!showEgg) {
               var eggElement = document.getElementById("randomEasterEgg");
               if (eggElement) {
@@ -20,42 +20,41 @@ runat="server"></asp:ContentPlaceHolder> | My Portfolio</title>
               }
           }
       };
-        </script>
-
+  </script>
 </head>
 <body>
+  <form id="form1" runat="server">
+    <header>
+  <h1>Welcome to My Portfolio</h1>
+  <nav>
+    <div class="nav-main">
+      <ul>
+        <li><a href="Default.aspx">Home</a></li>
+        <li><a href="About.aspx">About</a></li>
+        <li><a href="Projects.aspx">Projects</a></li>
+        <li><a href="Contact.aspx">Contact</a></li>
+        <li><a href="Login.aspx">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
-     <form id="form1" runat="server">
-        <header>
-            <h1>Welcome to My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="Default.aspx">Home</a></li>
-                    <li><a href="About.aspx">About</a></li>
-                    <li><a href="Projects.aspx">Projects</a></li>
-                    <li><a href="Contact.aspx">Contact</a></li>
-                </ul>
-        </nav>
-     </header>
+    <div class="container">
+      <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <!-- Main content goes here -->
+      </asp:ContentPlaceHolder>
+    </div>
 
-     <div class="container">
-        <asp:ContentPlaceHolder ID="MainContent" 
-runat="server">
-            <p>
-                &nbsp;</p>
-         </asp:ContentPlaceHolder>
-     </div>
-        <footer>
-            <p>
-                &copy; <%: DateTime.Now.Year %> My Portfolio. All rights reserved.
-                <span id="randomEasterEgg">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You found the Golden Egg!">
-                        <img src="Images/easteregg.png" alt="Easter Egg" style="width: 50px; vertical-align: middle; margin-left: 10px;">
-                    </a>
-                </span>
-            </p>
-        </footer>
-    </form>
-
+    <footer>
+      <p>
+        &copy; <%: DateTime.Now.Year %> My Portfolio. All rights reserved.
+        <span id="randomEasterEgg">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="You found the Golden Egg!">
+            <img src="Images/easteregg.png" alt="Easter Egg" style="width: 50px; vertical-align: middle; margin-left: 10px;">
+          </a>
+        </span>
+      </p>
+    </footer>
+  </form>
 </body>
 </html>
