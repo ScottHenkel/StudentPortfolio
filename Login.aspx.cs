@@ -58,7 +58,7 @@ namespace StudentPortfolio
                 cmd.Parameters.AddWithValue("@User_Pass", strHashPass);
 
                 //open the connection
-                //conn.Open();
+                conn.Open();
 
                 //execute the select command and fill the data reader
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -110,6 +110,11 @@ namespace StudentPortfolio
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
 
+        }
+
+        protected void btnRegister_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Register.aspx");
         }
     }
 }

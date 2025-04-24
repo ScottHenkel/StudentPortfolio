@@ -30,6 +30,8 @@
             <td style="text-align: right; width: 206px">&nbsp;</td>
             <td style="text-align: left">
                 <asp:Button ID="btLogin" runat="server" OnClick="btLogin_Click" Text="Login" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" CausesValidation="false" PostBackUrl="~/Register.aspx" />
             </td>
         </tr>
         <tr>
